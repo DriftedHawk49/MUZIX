@@ -1,0 +1,304 @@
+/* Body Defaults */
+
+body{
+    font-family:Arial;
+    /*background: linear-gradient(to right, rgba(0,201,255,0.5), rgba(146,254,157,0.5));*/
+    /*background-image:url(image_database/gth.jpg)*/
+    background: linear-gradient(to top right,#1E1E5B,#56A14A,#563792,#BC2F2F,#FF8222);
+}
+
+/*========== HEADER SECTION ========*/
+
+#lefthead {
+    float:left;
+    border-style:inset;
+    border-color:grey;
+    background-color:lightgrey;
+    border-radius:10px;
+    padding:10px;
+    margin-top:20px;
+    padding-top:20px;
+    padding-bottom:20px;   
+}
+
+#lefthead1 {
+    
+    float:left;
+    clear:both;
+    padding:15px;
+    text-align:center;
+    border-style:inset;
+    border-color:grey;
+    background-color:lightgrey;
+    border-radius:10px;
+    padding-right:26px;
+    
+}
+
+#righthead {
+    float:right;
+    border-style:inset;
+    border-color:grey;
+    background-color:lightgrey;
+    border-radius:10px;
+    padding:10px;   
+}
+
+#logo {
+    text-align:center;
+    margin-left:400px;
+    margin-right:400px;
+    padding-bottom:75px;
+    font-size: 2em;
+    font-weight:bold;
+    color:#25FF25;
+    text-shadow: 5px 5px darkgreen,
+                 10px 5px #FF3232;
+                
+     
+}
+
+#header img{
+    border-radius:10px;
+    margin-top:30px;
+    box-shadow: 8px 8px #C4B4B4;
+    
+}
+
+
+/* For Hyperlinks-turned to buttons */
+
+a.button {
+    text-decoration:none;
+    font-family:Arial;
+    padding-left:15px;
+    padding-right:15px;
+    border-style: solid;
+    border-width:1.5px;
+    background-color:aliceblue;
+    color:black;
+    border-radius:10px;
+    border-color:black;
+    transition: background-color 1s;
+    border-width:1px;
+    
+    
+    
+}
+
+a.button:hover {
+    background-color:#B2D6F9;
+    border-color: darkgrey;
+    
+}
+
+/* For Form Submit Real Buttons */
+
+.buttons {
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius:10px;
+    
+    
+}
+
+/* For form input text box */
+
+.inputbox {
+    border-radius:10px;
+    margin-right:25px;
+    
+}
+
+
+
+
+
+/*====== FAV ARTIST SECTION =======*/
+
+#favart {
+    border-width:3px;
+    border-style:double;
+    text-align:center;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-image:url(bg.jpg);
+    border-color: #EFFF67;
+    margin-bottom:75px;
+}
+
+#favart p{
+    font-size:3em;
+    font-weight:bold;
+    color:antiquewhite;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+#favart li {
+    list-style: none;
+    padding:2px;
+    display:inline-block;
+    vertical-align:left;
+    border-width:1px;
+    border-style:ridge;
+    border-radius:10px;
+    margin-left:50px;
+    margin-right:10px;
+    background-color:#9CA6FF;
+    
+}
+
+#favart li a{
+    font-size:1.2em;
+    text-decoration:none;
+    padding-left:auto;
+    font-family: verdana;
+    color:black;
+    text-shadow:2px 2px 1px #FF7070;
+    
+    
+}
+
+.art_thumb {
+    height: 120px;
+    width: 120px;
+    display:block;
+    border-radius:10px;
+    opacity:1.0;
+    transition:opacity 1s ease-in-out;
+    
+    
+}
+
+.art_thumb:hover {
+    
+    opacity:0.7;
+    
+}
+
+
+
+
+
+
+
+/*======= FAV SONG SECTION =========*/
+
+
+#favmus {
+    border-width:3px;
+    border-style:groove;
+    border-color:#4FB0FA;
+    text-align:left;
+    margin-right:550px;
+    background-image:url(bg2.jpg);
+    border-top-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+#favmus h1{
+    font-size:3em;
+    font-weight:bold;
+    color:antiquewhite;
+    text-shadow: 1px 1px 1px black;
+    padding-left: 25px;
+    
+}
+
+#favmus li{
+    list-style-type: none;
+}
+
+/* For Music Box */
+.musicplayer{
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    padding-bottom:0px;
+    width:400px;
+    font-size:1.7em;
+    height:98px;
+    width:450px;
+    text-align:left;
+    color:red;
+    text-shadow: 2px 2px 1px black;
+    background-color:#FFAF5E;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    line-height: 113%;
+    
+}
+ 
+/* For Playback image */
+.musicplayer img{
+    width:96px;
+    height:97px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    float:left;
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+/* For Audio Bar */
+.musicplayer audio{
+    
+    text-align:left;
+    
+    width:350px;
+    border-width:1px;
+    border-color:black;
+    
+    
+}
+
+/* For Artist info under Song */
+#undertext {
+    
+    font-size:0.6em;
+    font-weight:bold;
+    color:darkgrey;
+   
+}
+
+
+
+
+
+
+/*====Center All Artists Section====*/
+
+#right {
+    float:right;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    text-align:center;
+    
+}
+
+
+#right iframe{
+    height:880px;
+    width:500px;
+    border-top-right-radius:30px;
+    border-bottom-left-radius:30px;
+}
+
+
+
+
+/*==============Footer============*/
+#footer {
+    line-height:100%;
+    color:aliceblue;
+    text-shadow: 1px 1px black;
+}
+
+
+
